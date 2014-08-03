@@ -2,7 +2,7 @@
 
 In order to be considered for the Angular.js position, you mush complete the following steps. 
 
-*Note: This task should take no longer than 1-2 hours at the most.*
+*Note: This task should take no longer than 2 hours.*
 
 ### Prerequisites
 
@@ -13,13 +13,13 @@ In order to be considered for the Angular.js position, you mush complete the fol
 ## Task
 
 1. Fork this repository (if you don't know how to do that, Google is your friend)
-2. Use the [wireframes](example.png) as the basis for your layout and [API docs](http://docs.angularjstest.apiary.io/) for you netowrking calls.
+2. Use the [wireframes](example.png) as the basis for your layout and [API docs](http://docs.angularjstest.apiary.io/) for your networking calls.
 3. Please create an Angular app that accomplishes the following:
 	- Connect to the [Mock REST API](http://angularjstest.apiary-mock.com)
 		- GET http://angularjstest.apiary-mock.com/friends
 		- GET http://angularjstest.apiary-mock.com/friends/id
 		- DELETE http://angularjstest.apiary-mock.com/friends/id
-	- Create the Friends List as show in the wireframe. Use services, directives, filters where appropriate
+	- Create the Friends List as shown in the wireframe. Use services, directives, filters where appropriate
 	- When a user clicks on a Friend bring them to the Friend Profile page. *Note: There is only one Friend profile object that is available through the API. Use this for all detail pages.* Use routing and transitions where appropriate.
 	- A user should be able to delete a friend.
 4. Commit and Push your code to your new repository
